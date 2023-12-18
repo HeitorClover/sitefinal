@@ -1,0 +1,260 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+.menu{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: red;
+
+}
+
+.logo > img {
+margin-left: 15px;
+width: 140px;
+margin: 5px;
+}
+
+nav{
+	
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+nav > div {
+margin-left: 20px;
+ margin-right: 20px;
+
+}
+
+nav > div > a {
+text-decoration: none;
+font-size: large;
+color: #dff9fb;
+}
+
+nav > div > a:hover {
+
+color: cyan;
+
+}
+
+
+
+.banner > img {
+width: 100%;
+height: 40%;
+}
+
+.slogan{
+ font-size: 40px ;
+position: relative;
+
+text-align: center;
+color:blue;          
+
+}
+
+.favoritos {
+padding: 34px;
+background-color: darkcyan;
+
+}
+
+center > h1 {
+
+color: red;
+font-size: 35px;
+
+
+}
+
+
+
+.fav{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+min-height: 300px ;
+min-width: 300px;
+padding: 15px;
+
+}
+.s01{
+	background-image: url("../Imagens/handball.png");
+    flex: 2;
+}
+.s02{
+	background-image: url("../Imagens/futsal.png");
+	flex: 1;
+}
+.s03{
+	background-image: url("../Imagens/basquete.png");
+    flex: 1;
+}
+.s04{
+	background-image: url("../Imagens/tenisdemesa.png");
+	flex: 1;
+}
+.s05{
+	background-image: url("../Imagens/esports.png");
+	flex: 1;
+
+
+}
+.s06{
+	background-image: url("../Imagens/lutas.png");
+	flex: 1;
+
+
+}
+.s07{
+	background-image: url("../Imagens/xadrez.png");
+	flex: 1;
+
+
+}
+.s08{
+	background-image: url("../Imagens/futebolamericano.png");
+	flex: 2;
+
+
+}
+.s01, .s02, .s03, .s04, .s05,.s06, .s07, .s08{
+background-repeat: no-repeat;
+background-size: 100% 100%;
+display: flex;
+align-items: flex-end;
+justify-content: center ;
+font-size: large;
+font-weight: bolder;
+margin: 20px;
+color: coral;
+}
+
+.equip{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+min-height: 400px ;
+padding: 5px;
+align-items: flex-end;
+justify-content: center ;
+font-size: large;
+font-weight: bolder;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-color: chocolate;
+width: 100%;
+}
+
+.EquipRows{
+display: flex;
+justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+}
+
+
+.e01{
+background-image: url("../Imagens/bolas.png");
+flex: 1;
+
+}
+
+.e02{
+background-image: url("../Imagens/vest.png");
+flex: 1;
+}
+
+.e03{
+background-image: url("../Imagens/tacos.png");
+flex: 1;
+}
+
+.e{
+	color: firebrick;
+}
+
+.aonde{
+	width: 100%;
+min-height: 400px ;
+min-width: 400px;
+padding: 5px;
+justify-content: center ;
+font-size: large;
+font-weight: bolder;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+.mat{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+height: 400px;
+font-size: large;
+font-weight: bolder;
+align-items: flex-end;
+justify-content: center;
+}
+
+.m01{
+background-image: url("../Imagens/tnt23.png"); 
+}
+
+.m02{
+background-image: url("../Imagens/sporttv.jpg");
+}
+
+.m03{
+background-image: url("../Imagens/espn.png");
+}
+
+.m01, .m02, .m03 {
+	flex: 1;
+	background-size: 100% 100%;
+}
+
+
+.rodape{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 10px;
+font-size: 20px;
+background-color: dimgrey;
+flex-wrap: wrap;
+}
+
+.imagem{
+	height: 250px;
+}
+
+.col-1, .col-2, .col-3{
+flex: 1;
+min-width: ;
+height: 350px;
+text-align: center;
+}
+
+.rodape > .col-1 > p, .rodape > .col-2 > p{
+margin-bottom: 15px;
+
+}
+
+.rodape > .col-2 > p{
+margin-bottom: 40px;
+
+}
+
+.rodape > .col-2 > h2{
+margin-bottom: 35px;
+
+}
